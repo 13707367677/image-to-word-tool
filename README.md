@@ -1,8 +1,16 @@
 # image-to-word-tool
 
-Drag-and-drop image to Word layout tool.
+图片转 Word 排版工具 - 支持拖拽、批量排版、标注生成
 
-## Run
+## 功能
+- 拖拽或点击添加图片
+- 支持文件夹拖入，递归收集图片
+- 可选纸张方向（横/纵）
+- 可选每页图片数量（1/2/4/6/8张）
+- 标注文字模板：{n}=序号 {f}=文件名
+- 显示/隐藏表格边框
+
+## 运行
 ```bash
 py scripts/image_to_word.py
 ```
