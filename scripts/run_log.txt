@@ -1,0 +1,8 @@
+=== GENERATE ERROR ===
+Traceback (most recent call last):
+  File "C:\Users\Administrator\lobsterai\project\scripts\image_to_word.py", line 488, in _generate
+    n_pairs = (n + 1) // 2
+               ^
+NameError: name 'n' is not defined. Did you mean: 'qn'?
+
+======================
